@@ -71,3 +71,5 @@ wget
 git+https://github.com/goldsmith/Wikipedia
 youtube-search-python
 youtube_dl
+httpx>=0.23.0 # not directly required, pinned by Snyk to avoid a vulnerability
+lxml>=4.9.1 # not directly required, pinned by Snyk to avoid a vulnerability
